@@ -24,9 +24,7 @@ Question: {question}
 Answer in Markdown:`,
 );
 
-export const config = {
-  runtime: "experimental-edge",
-};
+
 
 export const makeChain = (
   vectorstore: PineconeStore,

@@ -5,6 +5,11 @@ import { makeChain } from '@/utils/makechain';
 import { pinecone } from '@/utils/pinecone-client';
 import { PINECONE_INDEX_NAME} from '@/config/pinecone';
 
+
+export const config = {
+  runtime: "experimental-edge",
+};
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse,
