@@ -24,6 +24,10 @@ Question: {question}
 Answer in Markdown:`,
 );
 
+export const config = {
+  runtime: "edge",
+};
+
 export const makeChain = (
   vectorstore: PineconeStore,
   onTokenStream?: (token: string) => void,
