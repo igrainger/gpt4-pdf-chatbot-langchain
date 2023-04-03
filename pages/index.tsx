@@ -14,9 +14,6 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 
-export const config = {
-  runtime: "edge",
-};
 
 export default function Home() {
   const [query, setQuery] = useState<string>('');

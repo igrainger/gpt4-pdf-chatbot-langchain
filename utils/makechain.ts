@@ -25,7 +25,7 @@ Answer in Markdown:`,
 );
 
 export const config = {
-  runtime: "edge",
+  runtime: "experimental-edge",
 };
 
 export const makeChain = (
