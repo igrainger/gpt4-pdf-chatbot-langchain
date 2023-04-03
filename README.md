@@ -42,7 +42,7 @@ PINECONE_ENVIRONMENT=
 - Visit [openai](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) to retrieve API keys and insert into your `.env` file.
 - Visit [pinecone](https://pinecone.io/) to create and retrieve your API keys.
 
-4. In the `config` folder, replace the `PINECONE_INDEX_NAME` and `PINECONE_NAME_SPACE` with your own details from your pinecone dashboard.
+4. In the `config` folder, replace the `PINECONE_INDEX_NAME` with your own details from your pinecone dashboard.
 
 5. In `utils/makechain.ts` chain change the `QA_PROMPT` for your own usecase. Change `modelName` in `new OpenAIChat` to a different api model if you don't have access to `gpt-4`. See [the OpenAI docs](https://platform.openai.com/docs/models/model-endpoint-compatibility) for a list of supported `modelName`s. For example you could use `gpt-3.5-turbo` if you do not have access to `gpt-4`, yet.
 
